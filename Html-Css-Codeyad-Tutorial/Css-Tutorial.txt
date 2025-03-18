@@ -51,6 +51,12 @@ background-position: 50px 100px;
 ex;cm,m,***(px)***,ml.
 
 2-Relative Measuring;***recommennnded***
-ex:(%) for responsive website better to use,
+what it means realtive???
+relative to its Parent, compare it unit respecct to its parennt, for ex u have aa node of p in div and u give 40 px of font size to ur div tag,
+then if u come annd give any units  below it will effect respect to 40 px, beacuse the divv itss their parent
 
+1-% for responsive website better to use,
+2-ch:
+3-em:***recommennnded***
+4-rem: r=root
 <----===========------>
