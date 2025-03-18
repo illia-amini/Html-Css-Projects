@@ -50,7 +50,7 @@ background-position: 50px 100px;
 1-Logaicl Measuring;(Phisiycal unit)
 ex;cm,m,***(px)***,ml.
 
-2-Relative Measuring;
-
+2-Relative Measuring;***recommennnded***
+ex:(%) for responsive website better to use,
 
 <----===========------>
