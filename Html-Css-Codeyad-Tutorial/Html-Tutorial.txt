@@ -463,3 +463,10 @@ how to?
 
 ***imp***
 .Division:<div></div>
+its a tag to be used for dividinng our website to separate parts from eachother.
+
+<!-- Tip; for using of div nnode,for sure u need to clear its width & height  -->
+<!-- Tip; div is a block tag, -->
+<!-- Tip; if u want to put a two div next to eachother swap display of tag div to inline-block or float -->
+
+<----===========------>
