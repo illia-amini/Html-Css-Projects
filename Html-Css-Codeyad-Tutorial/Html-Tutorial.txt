@@ -16,9 +16,9 @@ ex => <img src=''>. tag of image.
 .Main tags in Html.
 1-<!Doctype html> => Document type, means Html5 latest version of html,
 2-<html> => include all html tags code.
-3-<head> 
-4-<title> 
-5-<body> => include all tags 
+3-<head>
+4-<title>
+5-<body> => include all tags
 
 <----===========------>
 
@@ -36,7 +36,7 @@ ex => <br> & <img>
 <----===========------>
 
 .Html Attribute:
-All Html tags can handle Attribute, 
+All Html tags can handle Attribute,
 for ex: style='',name='',id='' and...
 *imp*
 for Star & End tags, u must give attribute to start tag,
@@ -47,9 +47,9 @@ Also u can customize ur tags by JQuery,
 <----===========------>
 
 .Tags:
-1-<h1:h6></h1:h6>: 
+1-<h1:h6></h1:h6>:
 Use as header of ur website.
-Affect on S.E.O of website, 
+Affect on S.E.O of website,
 ***Do not use of tag <h1> more then once on ur page,***
 ***Do not use of tag <h2> more then 3 times on ur page,***
 ***Do not use of tag <h3> more then 6 times on ur page,***
@@ -128,7 +128,7 @@ ex => <blockqoute cite=' Url address here '> Hello world !</blockqoute>
 
 15-<abbr></abbr>:
 whenever u hover the mouse it will subtitle the full name,used in info websites.
-it has an Attribute title='' u sholud fill with full name. 
+it has an Attribute title='' u sholud fill with full name.
 ex => <abbr title='Iran'>IR</abbr>
 
 16-<addresss></address>:
@@ -146,7 +146,7 @@ ex =><bdo dir='rtl'>This is a test</bdo>
 it is used for mentioninig links on our website.
 it has attribute is href='',that the url address will mentioned on there.
 it will open the link on the same page,if u want to wheneer u click on it a new page or tab open u should give an attribut,
-this attribute is target=' ', by default it is (self), but u can change to (blank).it will open into new page. 
+this attribute is target=' ', by default it is (self), but u can change to (blank).it will open into new page.
 ex => <p> Go to <a href=' URl address here ' target=' blank '>Codeyad</a></p>
 
 .imgages<img>
@@ -260,7 +260,7 @@ ex;
 </ol>
 
 .2-Unordered list;<ul></ul>; it wont give a number or alphabet next to ur li
-.it will add a . next to ur li, that u can change via css list-style 
+.it will add a . next to ur li, that u can change via css list-style
 ex;
 <ul>
       <li>reza</li>
@@ -460,3 +460,6 @@ how to?
 5-<meta name="author" content="Ali" />; for developers u can add ur name and whatever related to u here
 
 <----===========------>
+
+***imp***
+.Division:<div></div>
