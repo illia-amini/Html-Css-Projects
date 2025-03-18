@@ -88,10 +88,34 @@ margin-bottom:20px;
  margin: 100px 100px 100px;/* first num is used for top, seocnde num is using for right & left, third num is for bottom*/
  margin: 100px 100px 100px 100px;/* first num is used for top, seocnde num is using for right & left, third num is for bottom,Fourth number is used for left side*/
 
-2-Padding:
+2-Padding:The distance from content of div to border is called padding.
+U can apply it as same as margin structer,but the difreences is margin is for outter of elment, padding ued for inside of element
 
+3-Border:The stroke of each node iss called border,
+U cccan use it ass same ass margin struccter,amd it has texture like solid dashi annd etc...
 
-3-Border:
+<----===========------>
 
+.Opacity;
+
+<----===========------>
+
+.Feature of inline & block;
+
+<----===========------>
+
+.Clear & float;
+
+<----===========------>
+
+.Gradiant;
+
+<----===========------>
+
+.Box-sizin;
+
+<----===========------>
+
+.Calc func;
 
 <----===========------>
