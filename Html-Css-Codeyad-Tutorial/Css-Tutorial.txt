@@ -1,0 +1,15 @@
+.CSS; for design of  any website.
+
+<----===========------>
+
+.There are 3 ways to use of css in ur doc,
+
+1-Inline:Using style as attribute in html nodes; ***not recommennnded at all***
+#ex:
+<p style='backgrounde color:red; color=blue;'></p>
+
+2-External:create a css file in ur Assect file. create ur css file. and link it to ur html doc,=> use link in head tag
+
+3-FrameWork:Using of well-known framework like; bootstrap5,tailwind,bulma...
+
+<----===========------>
