@@ -60,4 +60,9 @@ then if u come annd give any units  below it will effect respect to 40 px, beacu
 3-em:***recommennnded*** em is equal to parent value and ex 2em here is 80px
 4-rem: r=root, here rem is nnot effect of itss parennt it will affect of html root, and what number u givve to html it will effect.
 
+
+<----===========------>
+
+.Margin & Paddig & Border
+
 <----===========------>
