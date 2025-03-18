@@ -53,10 +53,11 @@ ex;cm,m,***(px)***,ml.
 2-Relative Measuring;***recommennnded***
 what it means realtive???
 relative to its Parent, compare it unit respecct to its parennt, for ex u have aa node of p in div and u give 40 px of font size to ur div tag,
-then if u come annd give any units  below it will effect respect to 40 px, beacuse the divv itss their parent
+then if u come annd give any units  below it will effect respect to 40 px, beacuse the divv itss their parent. except rem
 
-1-% for responsive website better to use,
-2-ch:
-3-em:***recommennnded***
-4-rem: r=root
+1-% for responsive website better to use, if u give 200% of font size of p it will equal to 200% of 40px = 80px
+2-ch:***not recommended*** 1 ch i equal to the 0 in english alphabet.
+3-em:***recommennnded*** em is equal to parent value and ex 2em here is 80px
+4-rem: r=root, here rem is nnot effect of itss parennt it will affect of html root, and what number u givve to html it will effect.
+
 <----===========------>
