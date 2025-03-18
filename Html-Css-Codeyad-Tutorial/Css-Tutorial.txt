@@ -8,7 +8,7 @@
 
 2-External:create a css file in ur Assect file. create ur css file. and link it to ur html doc,=> use link in head tag ***recommennnded***
 
-4-Internal: open style tag in ur head tag, and write ur css tag via css selectors. ***not recommennnded at all***
+3-Internal: open style tag in ur head tag, and write ur css tag via css selectors. ***not recommennnded at all***
 
 4-FrameWork:Using of well-known framework like; bootstrap5,tailwind,bulma...***recommennnded***
 
