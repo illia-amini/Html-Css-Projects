@@ -64,9 +64,34 @@ then if u come annd give any units  below it will effect respect to 40 px, beacu
 7-vh: respect to viewport height, means 1% of height of hole viewport give to ur element
 
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--- its for responsive of our website-->>
- 
+
 <----===========------>
 
 .Margin & Paddig & Border
+
+1-Margin: The distance between two Elements our fom its envoirment.
+U can control margin from 4 side, Top,Bottom,Right,Left
+*just be careful about block elemnnts,like div beaccuse they take all width of viewport,they are not effecting margin effects.to prevent swap disply to inline-block.
+.There are 2 ways to use margin;
+1-Use margin-side:
+#ex;
+margin-top:20px;
+margin-right:20px;
+margin-left:20px;
+margin-bottom:20px;
+
+***recommended***
+2-Use margin:
+#ex:
+ margin: 100px;/* it effects on whole sides*/
+ margin: 100px 100px;/* first num is used for top & bottom, seocnde num is using for right & left*/
+ margin: 100px 100px 100px;/* first num is used for top, seocnde num is using for right & left, third num is for bottom*/
+ margin: 100px 100px 100px 100px;/* first num is used for top, seocnde num is using for right & left, third num is for bottom,Fourth number is used for left side*/
+
+2-Padding:
+
+
+3-Border:
+
 
 <----===========------>
