@@ -8,8 +8,8 @@
 #ex:
 <p style='backgrounde color:red; color=blue;'></p>
 
-2-External:create a css file in ur Assect file. create ur css file. and link it to ur html doc,=> use link in head tag
+2-External:create a css file in ur Assect file. create ur css file. and link it to ur html doc,=> use link in head tag ***recommennnded***
 
-3-FrameWork:Using of well-known framework like; bootstrap5,tailwind,bulma...
+3-FrameWork:Using of well-known framework like; bootstrap5,tailwind,bulma...***recommennnded***
 
 <----===========------>
