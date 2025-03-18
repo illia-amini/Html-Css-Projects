@@ -26,7 +26,21 @@ p#ali>{milad} => p id='ali'> milad </p>
 
 <----===========------>
 
+.Command in Css:
+
+Use of below pattern and write ur css style in this shape:
+
+/* */
+
+<----===========------>
+
 .Background in css:
 
+in terms of pic.
+
+background-image: url();
+background-repeat: no-repeat;
+background-attachment: fixed;/* by default is scroll*/
+background-position: 50px 100px;
 
 <----===========------>
