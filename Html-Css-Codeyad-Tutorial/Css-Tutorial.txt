@@ -59,8 +59,12 @@ then if u come annd give any units  below it will effect respect to 40 px, beacu
 2-ch:***not recommended*** 1 ch i equal to the 0 in english alphabet.
 3-em:***recommennnded*** em is equal to parent value and ex 2em here is 80px
 4-rem: r=root, here rem is nnot effect of itss parennt it will affect of html root, and what number u givve to html it will effect.
+5-ex: respect to height of x in english aplpahbet
+6-vw: respect to viewprot width, meanns 1% of width of hole view port give to ur element
+7-vh: respect to viewport height, means 1% of height of hole viewport give to ur element
 
-
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--- its for responsive of our website-->>
+ 
 <----===========------>
 
 .Margin & Paddig & Border
