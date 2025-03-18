@@ -19,7 +19,8 @@
 All nodes can carry class & id as attribute,
 for id we use # Css selector.
 for class we use . in css selecctore.
-Also u can call any nodes cia & inn css selectore ex; h1 & p
+Also u can call any nodes cia & inn css selectore ex; h1 & p.
+Moreover,* use for all tags in css selector.
 p.ali>{milad} => p class='ali'> milad </p>
 p#ali>{milad} => p id='ali'> milad </p>
 
