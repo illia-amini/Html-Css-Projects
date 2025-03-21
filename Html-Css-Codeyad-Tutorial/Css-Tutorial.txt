@@ -400,8 +400,11 @@ ex;
 
 <----===========------>
 
-.Media Queries:
-
+.Media Queries:***imp***
+To make ur website responsive.
+@media screen and (max-width:1950px) {
+           }
+Better to use bootstrap5 for media querise to make ur websiter responnsive
 
 <----===========------>
 
