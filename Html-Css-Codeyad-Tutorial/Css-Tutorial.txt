@@ -107,7 +107,7 @@ ex; => Opacity=range of 0==hidden to 1==clear ***recommended for animation***
 
 <----===========------>
 
-.Feature of inline & block;
+.Feature of display of inline & block;
 
 <----===========------>
 
