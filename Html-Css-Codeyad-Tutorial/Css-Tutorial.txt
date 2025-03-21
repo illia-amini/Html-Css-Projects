@@ -191,3 +191,75 @@ To be able to, break float u sholud use clear, usually put in both and write cle
 .Calc func;
 
 <----===========------>
+
+.Z-index;
+Its the priotory of show,
+if z-index of echcch element is bigger it will precesnt,
+if the z-inndex of two elemnnt are same the ones will apply whcih has writen below
+
+ex;
+<style>
+        .box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box .box1{
+            background-color: red;
+            z-index: 1;
+        }
+        .box .box2{
+            background-color: blue;
+            z-index: 1;
+        }
+        .box .box3{
+            background-color: yellow;
+        }
+        .box .box4{
+            background-color: green;
+        }
+        .box .box5{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+</body><style>
+        .box{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+        .box .box1{
+            background-color: red;
+            z-index: 1;
+        }
+        .box .box2{
+            background-color: blue;
+            z-index: 1;
+        }
+        .box .box3{
+            background-color: yellow;
+        }
+        .box .box4{
+            background-color: green;
+        }
+        .box .box5{
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+</body>
+
+<----===========------>
