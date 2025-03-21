@@ -121,6 +121,14 @@ But But u can not do the same thing to inline tags And there is solution,
 <----===========------>
 
 .Clear & float;
+***TIP***
+whenever u convert a node from display block to display inline-block, to be able to  remove the spaces between each elements
+u must use of (float), and give a direction left or right and ..., Moreover, Command display inline-block also.
+***TIP***
+***Tip***
+To be able to, break float u sholud use clear, usually put in both and write clear in a div
+***Tip**
+//ex:
 
 <----===========------>
 
