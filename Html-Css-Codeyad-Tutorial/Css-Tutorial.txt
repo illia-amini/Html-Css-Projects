@@ -185,10 +185,68 @@ To be able to, break float u sholud use clear, usually put in both and write cle
 <----===========------>
 
 .Box-sizing;
+it will come and fix the element in ur deoc, and its much better to put it border-box in * section
+ex;
+ <style>
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        padding: 60px;
+    }
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        box-sizing: border-box;
+        padding: 60px;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="box1">Ali Amini</div>
+    <div class="box2">Ali Amini</div>
+    <div class="box3">Ali Amini</div>
+</body>
+</html> <style>
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    .box2{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        padding: 60px;
+    }
+    .box3{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        box-sizing: border-box;
+        padding: 60px;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="box1">Ali Amini</div>
+    <div class="box2">Ali Amini</div>
+    <div class="box3">Ali Amini</div>
+</body>
 
 <----===========------>
 
 .Calc func;
+its a func to be used for ccaalculaating the spaces,
+calc()
 
 <----===========------>
 
