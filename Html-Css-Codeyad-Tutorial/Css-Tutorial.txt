@@ -119,7 +119,7 @@ ex; => Opacity=range of 0==hidden to 1==clear ***recommended for animation***
 
 <----===========------>
 
-.Box-sizin;
+.Box-sizing;
 
 <----===========------>
 
