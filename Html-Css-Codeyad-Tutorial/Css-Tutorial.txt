@@ -250,6 +250,62 @@ calc()
 
 <----===========------>
 
+.Layout:
+a full ex of a css layout:
+ex;
+ <style>
+        .layout{
+            width: 600px;
+            height:auto;
+            border: 1px solid red;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .header{
+            width: calc(100%-2px);/* if u give 100% to ur width heaader will be overlay to outside and also it will ccounnt 1px + 1px of border to prevent use calc func to prevernt*/
+            height: 200px;
+            border: 1px solid black;
+        }
+        .body{
+            width: calc(100% - 2px);
+            height: 500px;
+            border: 1px solid blue ;
+        }
+        .sidebar{
+            border: 1px solid orangered;
+            margin: 5px;
+            height: calc(100% - 12px); /* why 12px? => 5 px from top and button margin aand 1px border from 2 side total 12px*/
+            width: calc(30% - 12px);
+            float: right;
+        }
+        .content{
+            border: 1px solid purple;
+            margin: 5px;
+            height: calc(100% - 12px); /* why 12px? => 5 px from top and button margin aand 1px border from 2 side total 12px*/
+            width: calc(70% - 12px);;
+            float: left;
+        }
+        .footer{
+            width: calc(100%-2px);/* if u give 100% to ur width heaader will be overlay to outside and also it will ccounnt 1px + 1px of border to prevent use calc func to prevernt*/
+            height: 200px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="layout">
+    <div class="header"><span>Header Section</span></div>
+    <div class="body">
+        <div class="content"><span>Content Section</span></div>
+        <div class="sidebar"><span>Side-bar Section</span></div>
+    </div>
+    <div class="footer"><span>Footer Section</span></div>
+    </div>
+</body>
+
+<----===========------>
+
 .Z-index;
 Its the priotory of show,
 if z-index of echcch element is bigger it will precesnt,
