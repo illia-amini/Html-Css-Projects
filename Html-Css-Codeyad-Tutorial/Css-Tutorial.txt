@@ -116,6 +116,7 @@ display inline-block will behave respect to both of layout features
 U can put a block tag to the center by using margin= 0 auto or margin-left=auto & margin-right=auto
 But But u can not do the same thing to inline tags And there is solution,
 1-Put it in a div and give text-align center to div,
+***TIP**
 
 <----===========------>
 
