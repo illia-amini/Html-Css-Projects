@@ -367,7 +367,36 @@ ex;
 <----===========------>
 
 .Overlay:
+To make an element, As overlay
+U must of pos of absloute & relative & hover.
+ex;
+  <style>
+       .box{
+        width: 400px;
+        height: 350px;
+        background: url(Documents/pic/DSC_0173.JPG);
+        position: relative;
+       }
+       .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        opacity: 0;
+        transition: all ease 1s;
+       }
+       .overlay:hover{
+        opacity: 1;
+       }
 
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="overlay">
+
+        </div>
+    </div>
 
 <----===========------>
 
