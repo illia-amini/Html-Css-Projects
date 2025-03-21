@@ -107,7 +107,15 @@ ex; => Opacity=range of 0==hidden to 1==clear ***recommended for animation***
 
 <----===========------>
 
-.Feature of display of inline & block;
+.Layout;
+***TIP***
+U can convert the size of width & height of block tags easily, But But u can not covert the size of width & height of inline nodes easily at all
+if u wanna convert any inline nodes width or height u must change display of them to inline-block for sure,
+display inline-block will behave respect to both of layout features
+***TIP**
+U can put a block tag to the center by using margin= 0 auto or margin-left=auto & margin-right=auto
+But But u can not do the same thing to inline tags And there is solution,
+1-Put it in a div and give text-align center to div,
 
 <----===========------>
 
