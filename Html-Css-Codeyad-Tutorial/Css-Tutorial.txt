@@ -129,7 +129,54 @@ u must use of (float), and give a direction left or right and ..., Moreover, Com
 To be able to, break float u sholud use clear, usually put in both and write clear in a div
 ***Tip**
 //ex:
+<style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        ul{
+            list-style-type: none;
 
+        }
+        ul li{
+            background-color: red;
+            border: 1px solid blue;
+            /*display: inline-block;*/;
+            float: left;
+            width: 50px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            width: 100px;
+            border: 1px solid red;
+        }
+        .ClearBootsrap{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+  <ul>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+        <li><a href="">text</a></li>
+    </ul>
+    <div class="ClearFix"></div>
+    <p>text</p>
+    <p>text</p>
+    <div class="ClearFix"></div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempora eius illum iure nulla ipsum dolorem labore error rem delectus quia laboriosam eligendi sequi voluptatum esse sapiente repellat molestias quod architecto voluptates vel, in omnis facilis quaerat! Recusandae nam sunt quia magnam, porro hic praesentium facere pariatur labore corporis tenetur, quaerat nesciunt suscipit ex rem iure numquam qui inventore! Consequatur, ratione nihil. Natus, reiciendis laboriosam quo optio autem fugiat provident vero cum illum nihil. Qui molestiae saepe doloremque ducimus a quia enim itaque deserunt illum neque, quasi debitis illo et maxime beatae quibusdam reiciendis dolorum repellendus! Voluptate impedit dignissimos iusto ipsum ad assumenda saepe nulla dolor veritatis autem ut perspiciatis consectetur sint laboriosam nesciunt, est itaque maxime dolorum corrupti aliquid expedita soluta aspernatur deserunt? Repudiandae distinctio nobis officia omnis perspiciatis ipsa nesciunt architecto delectus sint fuga velit, eos harum, rem qui. Modi quam nulla laborum repellendus unde fugit quidem deleniti, culpa, aliquam dolore, saepe doloribus deserunt odit reprehenderit labore? Ipsam neque magnam unde aperiam nulla, explicabo voluptatum a sequi aliquam perspiciatis impedit nihil temporibus praesentium quisquam ad numquam laborum fugit! Rem libero dolore numquam nesciunt modi omnis autem, rerum, vel consectetur mollitia maiores, veniam officiis pariatur ipsam sequi. Est ratione iste repellendus assumenda delectus? Nam sunt labore quam vero eos quasi quis ipsa reprehenderit. Consectetur dicta ducimus totam rerum saepe necessitatibus autem. Alias, non tempore dolorem minima quibusdam architecto nobis expedita vitae debitis repudiandae exercitationem laboriosam minus voluptas consequatur ullam ipsa nisi? Accusantium delectus nisi expedita consectetur neque aut blanditiis culpa qui cupiditate optio aspernatur autem quaerat deserunt, labore sequi sed nemo! Delectus officia culpa, aspernatur deleniti eaque nostrum neque saepe optio hic maiores accusamus asperiores nesciunt voluptas provident voluptatem eius, quasi commodi, assumenda omnis aliquam quo? Reiciendis non porro ut perferendis ab? Culpa perspiciatis accusantium nihil dolorum, quaerat id.
+    </div>
+</body>
+</html>
 
 <----===========------>
 
