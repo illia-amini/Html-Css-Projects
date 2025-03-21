@@ -305,7 +305,10 @@ ex;
 </body>
 
 <----===========------>
+.Poitions:
 
+
+<----===========------>
 .Z-index;
 Its the priotory of show,
 if z-index of echcch element is bigger it will precesnt,
