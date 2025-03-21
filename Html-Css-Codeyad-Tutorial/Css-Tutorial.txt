@@ -96,7 +96,14 @@ U cccan use it ass same ass margin struccter,amd it has texture like solid dashi
 
 <----===========------>
 
-.Opacity;
+.show;
+U can control a node in 3 ways.
+1-display
+ex;= display= none => it will disapper the element.but the place of node will not be saved. ***not recommended***
+2-visibilty
+ex; => visibilty=hidden => it will disapper the element,but but it will save the node place. ***recommended***
+3-Opacity
+ex; => Opacity=range of 0==hidden to 1==clear ***recommended for animation***
 
 <----===========------>
 
