@@ -613,6 +613,45 @@ ex;
 
 .Transition:
 
+it is used for Animation in css,
+there are some common u can use ,
+
+transition-property; for elemnts all width height and,,,
+
+transition-duration; time spend on animation
+
+transition-delay; delay to start the animation
+
+transition-timing-function; how movement will work.
+
+***imp***
+
+u can summerize all codes above in one line,
+
+  transition: all ease 2s 1s first transition-property, second transition-timing-function, third transition-duration, fourth transition-delay
+  
+ex;
+
+<style>
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        /* transition-property: all;// u can mention all elemnts or here just width height and ...
+        transition-duration: 2s;
+        transition-delay: 1s;
+        transition-timing-function: ease;
+        transition-timing-function: linear;
+        transition-timing-function: ease-in-out; */
+        transition: all ease 2s 1s;/* all line above in oneline */
+      }
+      .box:hover {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
 
 <----===========------>
 
