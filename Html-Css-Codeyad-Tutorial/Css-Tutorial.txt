@@ -629,7 +629,7 @@ transition-timing-function; how movement will work.
 u can summerize all codes above in one line,
 
   transition: all ease 2s 1s first transition-property, second transition-timing-function, third transition-duration, fourth transition-delay
-  
+
 ex;
 
 <style>
@@ -667,6 +667,7 @@ ex;
 
 .Font-awesome icon:
 
+for using icon in ur website use font-awesome use cdn 4.7.0 then go to font-awesome link respect to 4.7.0 then link to ur html doc to use its icons
 
 <----===========------>
 
