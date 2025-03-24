@@ -482,6 +482,69 @@ ex;
 
 .child selctor & pseudo selector:
 
+there are two type of css selectors,
 
+1-child selectors.
 
+ex;
+div p {
+    color: green; //all p in div does ,also include the tag of p in other tag like here footer inside of div.
+    }
+div > p {
+    color: yellow; // just the tag of p , which is tag of div DIRECTLY, not in other tags inside of div,
+    }
+
+ <div>
+    <footer>
+    <p>this is text</p>
+    <p>this is text</p>
+    </footer>
+    <p>this is text</p>
+    <p>this is text</p>
+</div>
+
+2-pseudo Selectore:***imp***
+
+it has sign either : or :: that use as pseudo selector
+
+ex;
+
+p::first-line {
+        color: blue;
+    }
+p::first-letter {
+        font-size: 20px;
+    }
+.box {
+     width: 200px;
+     height: 200px;
+     background-color: red;
+    border: none;
+    transition: 0.75s;
+    }
+.box:hover {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+    }
+a:visited {
+        color: red;
+    }
+a:active {
+        color: green;
+    }
+
+<p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus assumenda
+      enim rerum nesciunt, earum est adipisci ab nihil odit facilis. Quae qui
+      beatae ipsam nulla deserunt eveniet unde minima natus accusantium
+      voluptatum commodi necessitatibus molestias rem dolorum quo pariatur,
+      dolorem amet magni ipsa excepturi! Labore tempora possimus nesciunt alias
+      quos!
+</p>
+    <hr />
+    <div class="box"></div>
+    <hr />
+    <a href="#">Ali Amini</a>
+    
 <----===========------>
