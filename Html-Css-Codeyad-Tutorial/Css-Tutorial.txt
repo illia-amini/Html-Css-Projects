@@ -675,8 +675,3 @@ for using icon in ur website use font-awesome use cdn 4.7.0 then go to font-awes
 
 
 <----===========------>
-
-.Last season:
-
-
-<----===========------>
